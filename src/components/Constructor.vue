@@ -28,7 +28,7 @@ const props = defineProps({
 const pageTitle = ref('HAZEBROUCK'); // Browser tab title
 // Ensure posteTravailQuestionId is defined for the template
 const posteTravailQuestionId = 'POSTE'; // 🎯 Change this if your work station question has a different ID
-const customWelcomeMessage = ref(`Bonjour<br><br> pour mieux connaître les usagers de la gare d’Hazerbrouck,<br><br> la SNCF souhaiterait en savoir plus sur votre déplacement en cours.<br><br> Auriez-vous quelques secondes à nous accorder ? `); // HTML welcome message
+const customWelcomeMessage = ref(`Bonjour<br><br> pour mieux connaître les usagers de la gare d’Hazebrouck,<br><br> la SNCF souhaiterait en savoir plus sur votre déplacement en cours.<br><br> Auriez-vous quelques secondes à nous accorder ? `); // HTML welcome message
 
 // 🎯 STEP 3: Set your survey questions
 // Replace 'exampleSurveyQuestions' with your imported questions
