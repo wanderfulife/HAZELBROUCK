@@ -11,9 +11,8 @@ export const templateSurveyQuestions = [
         note: "L'enquêteur peut pré-remplir directement cette question sans avoir à la poser. Cibler les montants en priorité.",
         options: [
             { id: 1, text: "Je vais prendre le train", next: "Q2" },
-            { id: 2, text: "Je viens de descendre du train", next: "end" }, // Fin de l'enquête pour les descendants
-            { id: 3, text: "J'accompagne des voyageurs qui partent / J'attends des voyageurs qui arrivent", next: "Q9" },
-            { id: 4, text: "Autre raison (achat billet, commerces en gare…)", next: "Q9" }
+            { id: 2, text: "J'accompagne des voyageurs qui partent / J'attends des voyageurs qui arrivent", next: "Q9" },
+            { id: 3, text: "Autre raison (achat billet, commerces en gare…)", next: "Q9" }
         ]
     },
 
